@@ -1,0 +1,75 @@
+ul.navbar-nav li a.select:hover {
+  background: #0000003a;
+  border-bottom: solid rgb(2, 97, 2);
+}
+
+nav.navbar.navbar2 {
+  padding: 3px 3px;
+  border-top: solid green;
+}
+
+ul.navbar-nav li a.select {
+  display: block;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+li a.active {
+  border-bottom: solid green;
+}
+
+@media (max-width: 768px) {
+  .carousel-inner,
+  .carousel-item {
+    height: 250px;
+  }
+
+  ul.navbar-nav.navbar-right li a.select1:hover {
+    background: #0000003a;
+    border-bottom: solid rgb(2, 97, 2);
+  }
+
+  nav ul.navbar-nav.navbar-right li a {
+    padding-left: 15px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .carousel-inner,
+  .carousel-item {
+    height: 500px;
+  }
+
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+div.d-flex.gap-2.col-12 button.btn.border:hover {
+  background-color: green;
+  color: white;
+}
+
+footer div.col-md-4.my-4 ul.list-group li.list-group-item {
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid white;
+}
+
+footer div.col-md-4.my-4 ul.list-group li.list-group-item:hover {
+  color: green;
+  border-bottom: 1px solid rgb(5, 161, 31);
+}
+
+a.mybutton:hover{
+background-color: green;
+color: white;
+}
+
+
+footer.bottom-footer{
+    background-color: #172e43;
+}
