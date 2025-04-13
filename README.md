@@ -14,7 +14,7 @@ Frontend: HTML5, CSS3, JavaScript, Bootstrap
 
 🚀 Getting Started
 # Clone the repository
-git clone https://github.com/athisoft/Travel-Website.git
+git clone https://github.com/athisoft/travel-website-ui.git
 
 # Navigate to the project folder
 cd athi-travel-site
