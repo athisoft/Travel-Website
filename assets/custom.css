@@ -18,6 +18,13 @@ li a.active {
   border-bottom: solid green;
 }
 
+.resposive-title {
+  font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 @media (max-width: 768px) {
   .carousel-inner,
   .carousel-item {
