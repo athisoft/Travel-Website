@@ -128,33 +128,62 @@
             <h2 class="mb-4 mt-3 text-center">Register</h2>
 
             <form action="/submit" method="post" novalidate>
-              <div class="mb-3">
-                <label for="name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="name" name="name" required>
+
+              <div class="mb-2 gap-2 d-flex">
+                <div>
+                  <label for="firstName" class="form-label">First Name <span class="required">*</span></label>
+                  <input type="text" class="form-control" id="firstName" name="firstName" required>
+                </div>
+  
+                <div>
+                  <label for="firstName" class="form-label">Last Name <span class="required">*</span></label>
+                  <input type="text" class="form-control" id="firstName" name="firstName" required>
+                </div>
               </div>
+
         
               <div class="mb-3">
-                <label for="email" class="form-label">Email Address</label>
+                <label for="email" class="form-label">Email Address <span class="required">*</span></label>
                 <input type="email" class="form-control" id="email" name="email" required>
               </div>
         
               <div class="mb-3">
-                <label for="mobile" class="form-label">Mobile Number</label>
+                <label for="mobile" class="form-label">Mobile Number <span class="required">*</span></label>
                 <input type="tel" class="form-control" id="mobile" name="mobile" required pattern="[0-9]{10}">
               </div>
         
               <div class="mb-3">
-                <label for="address" class="form-label">Address</label>
-                <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
+                <label for="addressLine1" class="form-label">Door No. / Street Address <span class="required">*</span></label>
+                <input class="form-control" id="addressLine1" name="addressLine1" rows="3" required placeholder="Building/Door No., Street"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="addressLine2" class="form-label">Apartment, suite, etc. (optional)</label>
+                <input class="form-control" id="addressLine2" name="addressLine2" rows="3"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="city" class="form-label">City <span class="required">*</span></label>
+                <input class="form-control" id="city" name="city" rows="3" required placeholder="Enter your city"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="state" class="form-label">State <span class="required">*</span></label>
+                <input class="form-control" id="state" name="state" rows="3" required placeholder="Enter your state"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="postalCode" class="form-label">Pincode </label>
+                <input type="number" class="form-control" id="postalCode" name="postalCode" rows="3" placeholder="Example: 629001"></input>
               </div>
         
               <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
+                <label for="password" class="form-label">Password <span class="required">*</span></label>
                 <input type="password" class="form-control" id="password" name="password" required minlength="6">
               </div>
         
               <div class="mb-3">
-                <label for="confirm" class="form-label">Confirm Password</label>
+                <label for="confirm" class="form-label">Confirm Password <span class="required">*</span></label>
                 <input type="password" class="form-control" id="confirm" name="confirm" required minlength="6">
               </div>
         
