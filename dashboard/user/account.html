@@ -1,0 +1,265 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kanyakumari Travels</title>
+    <meta
+      name="description"
+      content="Kanyakumari Travels is one of the leading tour operators in Kanyakumari. We offer car rental in kanyakumari ,tours and travels ,travel agency ,kanyakumari tour package ,kanyakumari trip ,kanyakumari tour ,trivandrum to kanyakumari taxi fare ,kanyakumari cab ,kanyakumari travels ,kanyakumari family tour package ,chennai to kanyakumari tour package ,rameshwaram kanyakumari tour package"
+    />
+    <link rel="stylesheet" href="/assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="/assets/custom.css" />
+  </head>
+  <body>
+  
+    <header class="container">
+      <nav class="navbar">
+        <div class="container-fluid my-lg-2">
+          <div class="d-flex justify-content-sm-center">
+            <a class="navbar-brand fs-3" href="/">
+              <img
+                src="/imgs/logo.png"
+                alt="kanyakumari-logo"
+                width="35"
+                class="d-inline-block align-text-top"
+              />
+              Kanyakumari Travels
+            </a>
+          </div>
+
+          <ul class="nav justify-content-center align-items-center gap-3">
+            <li class="nav-item text-success">
+              <i class="fa-regular fa-clock"></i> 09:00AM - 05:00PM
+            </li>
+
+            <li class="px-2">|</li>
+
+            <li class="nav-item">
+              <a
+                class="text-decoration-none text-success"
+                href="tel:+91 9487169498"
+                style="color: black"
+              >
+                <i class="fa-solid fa-phone"></i> +91 9487169498</a
+              >
+            </li>
+
+            <li>
+              <a
+                class="mybutton ms-lg-2 p-2 btn border border-success"
+                href="#"
+              >
+                GET a Free Quote
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <nav
+      class="navbar navbar2 navbar-expand-lg"
+      data-bs-theme="dark"
+      style="background-color: #172e43"
+    >
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto navbar-expand">
+            <li class="nav-item">
+              <a class="nav-link select active" href="#"
+                ><i class="fa-solid fa-house"></i> Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link select" href="#">
+                <i class="fa-solid fa-cube"></i> Booked Packages</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link select" href="#">
+                <i class="fa-solid fa-headset"></i> Support</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link select" href="#">
+                <i class="fa-solid fa-location-dot"></i> Tour Packages</a
+              >
+            </li>
+
+
+          </ul>
+
+          <ul class="navbar-nav navbar-right">
+            <li>
+              <a class="nav-link select1" href="#">
+                <i class="fa-solid fa-user"></i> My Account</a
+              >
+            </li>
+            <li>
+              <a class="nav-link select1" href="#">
+                <i class="fa-solid fa-right-to-bracket"></i> Logout</a
+              >
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <section class="container card rounded-0" style="background-color: rgb(214, 214, 214);">
+      <div class="row my-3 justify-content-center">
+
+        <!-- <h2 class="mb-4 mt-3 text-center">Login Success!</h2> -->
+
+        <div class="col-12 pt-3 px-sm-5 d-flex justify-content-center text-center">
+          <div class="w-25">
+            <h4>Profile</h4>
+            <hr>
+          </div>
+        </div>
+      
+        <div class="col-12" style="max-width: fit-content;">
+          <div class="form-group">
+
+            <form action="/submit" method="post" novalidate>
+
+              <div class="mb-2 row g-2 flex-fill">
+                <div class="col-6">
+                  <label for="firstName" class="form-label">First Name <span class="required">*</span></label>
+                  <input type="text" class="form-control" id="firstName" name="firstName" required>
+                </div>
+  
+                <div class="col-6">
+                  <label for="lastName" class="form-label">Last Name <span class="required">*</span></label>
+                  <input type="text" class="form-control" id="lastName" name="lastName" required>
+                </div>
+              </div>
+
+        
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Address <span class="required">*</span></label>
+                <input type="email" class="form-control" id="email" name="email" required>
+              </div>
+        
+              <div class="mb-3">
+                <label for="mobile" class="form-label">Mobile Number <span class="required">*</span></label>
+                <input type="tel" class="form-control" id="mobile" name="mobile" required pattern="[0-9]{10}">
+              </div>
+        
+              <div class="mb-3">
+                <label for="addressLine1" class="form-label">Door No. / Street Address <span class="required">*</span></label>
+                <input class="form-control" id="addressLine1" name="addressLine1" rows="3" required placeholder="Building/Door No., Street"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="addressLine2" class="form-label">Apartment, suite, etc. (optional)</label>
+                <input class="form-control" id="addressLine2" name="addressLine2" rows="3"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="city" class="form-label">City <span class="required">*</span></label>
+                <input class="form-control" id="city" name="city" rows="3" required placeholder="Enter your city"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="state" class="form-label">State <span class="required">*</span></label>
+                <input class="form-control" id="state" name="state" rows="3" required placeholder="Enter your state"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="postalCode" class="form-label">Pincode </label>
+                <input type="text" inputmode="numeric" pattern="\d" class="form-control" id="postalCode" name="postalCode" rows="3" placeholder="Example: 629001"></input>
+              </div>
+        
+              <div class="mb-3">
+                <label for="password" class="form-label">Password <span class="required">*</span></label>
+                <input type="password" class="form-control" id="password" name="password" required minlength="6">
+              </div>
+        
+              <div class="mb-3">
+                <label for="confirmPassword" class="form-label">Confirm Password <span class="required">*</span></label>
+                <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required minlength="6">
+              </div>
+        
+              <button type="submit" class="btn btn-primary w-100">Submit</button>
+            </form>
+
+          </div>
+
+        </div>
+    </div>
+        
+
+    </section>
+
+    <footer class="bg-dark text-white" data-bs-theme="dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-4 col-sm-auto">
+            <h5 class="text-decoration-underline text">About Us</h5>
+            <p class="mt-1">We offer the best travel packages in all India.</p>
+          </div>
+
+          <div class="col-md-4 my-4 col-sm-auto">
+            <h5 class="text-decoration-underline text-center">Quick Links</h5>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <a class="nav-link" href="">Home</a>
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="">Packages</a>
+              </li>
+              <li class="list-group-item">
+                <a class="nav-link" href="">Pricing</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 my-4 col-sm-auto">
+            <h5 class="text-decoration-underline">Contact Us</h5>
+            <ul class="list-unstyled mt-3">
+              <li>
+                <h6 class="fw-medium">
+                  <i class="fa-solid fa-envelope me-2"></i> support@gmail.com
+                </h6>
+              </li>
+              <li>
+                <h6 class="fw-medium">
+                  <i class="fa-solid fa-phone me-2"></i> +91 9487169498
+                </h6>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="bottom-footer text-white">
+      <div class="container-fluid text-center py-2">
+        Copyright &copy; 2025 Kanyakumari Travels | All rights reserved |
+        Designed By <a class="link-info" href="https://athisoft.in">AthiSoft</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/a7e04f4c69.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/assets/js/bootstrap.js"></script>
+  </body>
+</html>
