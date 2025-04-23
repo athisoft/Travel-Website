@@ -4,25 +4,30 @@
   --primarylinkcolor: #3f76aa;
 }
 
-ul.navbar-nav li a.select:hover {
+ul.navbar-nav li.select:hover {
   background: #0000003a;
-  border-bottom: solid rgb(2, 97, 2);
+  color: white;
 }
 
 nav.navbar.navbar2 {
-  padding: 3px 3px;
+  padding: 0px;
   border-top: solid green;
 }
 
-ul.navbar-nav li a.select {
+ul.navbar-nav li.select{
   display: block;
-  padding: 10px 15px;
-  box-sizing: border-box;
+  padding: 5px 6px 5px 6px;
 }
 
-li a.active {
-  border-bottom: solid green;
+li.active{
+  background: green;
 }
+
+li.active a{
+  color: white !important;
+}
+
+
 
 .resposive-title {
   font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
