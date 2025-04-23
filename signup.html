@@ -109,7 +109,7 @@
               >
             </li>
             <li>
-              <a class="nav-link select1" href="#">
+              <a class="nav-link select1" href="/login.html">
                 <i class="fa-solid fa-right-to-bracket"></i> Login</a
               >
             </li>
@@ -123,50 +123,83 @@
 
     <section class="container card rounded-0 " style="background-color: rgb(214, 214, 214);">
       <div class="row justify-content-center">
-        <div class="col-12" style="max-width: 500px;">
+        <div class="col-12  my-4 rounded-4" style="max-width: 700px;">
           
-            <h2 class="mb-4 mt-3 text-center">Register</h2>
+          <div class="m-sm-5 my-5 px-4">
+
+            <h2 class="mb-3 text-center" style="color: #172e43;">Register</h2>
+
+            <hr>
 
             <form action="/submit" method="post" novalidate>
-              <div class="mb-3">
-                <label for="name" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="name" name="name" required>
+
+              <div class="mb-2 row g-2 flex-fill">
+                <div class="col-6">
+                  <label for="firstName" class="form-label">First Name <span class="required">*</span></label>
+                  <input type="text" class="form-control" id="firstName" name="firstName" required>
+                </div>
+  
+                <div class="col-6">
+                  <label for="lastName" class="form-label">Last Name <span class="required">*</span></label>
+                  <input type="text" class="form-control" id="lastName" name="lastName" required>
+                </div>
               </div>
+
         
               <div class="mb-3">
-                <label for="email" class="form-label">Email Address</label>
+                <label for="email" class="form-label">Email Address <span class="required">*</span></label>
                 <input type="email" class="form-control" id="email" name="email" required>
               </div>
         
               <div class="mb-3">
-                <label for="mobile" class="form-label">Mobile Number</label>
+                <label for="mobile" class="form-label">Mobile Number <span class="required">*</span></label>
                 <input type="tel" class="form-control" id="mobile" name="mobile" required pattern="[0-9]{10}">
               </div>
         
               <div class="mb-3">
-                <label for="address" class="form-label">Address</label>
-                <textarea class="form-control" id="address" name="address" rows="3" required></textarea>
+                <label for="addressLine1" class="form-label">Door No. / Street Address <span class="required">*</span></label>
+                <input class="form-control" id="addressLine1" name="addressLine1" rows="3" required placeholder="Building/Door No., Street"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="addressLine2" class="form-label">Apartment, suite, etc. (optional)</label>
+                <input class="form-control" id="addressLine2" name="addressLine2" rows="3"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="city" class="form-label">City <span class="required">*</span></label>
+                <input class="form-control" id="city" name="city" rows="3" required placeholder="Enter your city"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="state" class="form-label">State <span class="required">*</span></label>
+                <input class="form-control" id="state" name="state" rows="3" required placeholder="Enter your state"></input>
+              </div>
+
+              <div class="mb-3">
+                <label for="postalCode" class="form-label">Pincode </label>
+                <input type="text" inputmode="numeric" pattern="\d" class="form-control" id="postalCode" name="postalCode" rows="3" placeholder="Example: 629001"></input>
               </div>
         
               <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
+                <label for="password" class="form-label">Password <span class="required">*</span></label>
                 <input type="password" class="form-control" id="password" name="password" required minlength="6">
               </div>
         
               <div class="mb-3">
-                <label for="confirm" class="form-label">Confirm Password</label>
-                <input type="password" class="form-control" id="confirm" name="confirm" required minlength="6">
+                <label for="confirmPassword" class="form-label">Confirm Password <span class="required">*</span></label>
+                <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" required minlength="6">
               </div>
         
               <div class="form-check mb-3">
                 <input type="checkbox" class="form-check-input" id="terms" required>
-                <label class="form-check-label" for="terms">I agree to the <a href="#">terms and conditions</a></label>
+                <label class="form-check-label" for="terms">I agree to the <a class="primary-link-color" href="#">terms and conditions</a></label>
               </div>
         
-              <button type="submit" class="btn btn-primary mb-3 w-100">Register</button>
+              <button type="submit" class="btn btn-primary w-100">Register</button>
             </form>
-  
-          
+
+          </div>
         </div>
       </div>
     

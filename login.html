@@ -119,40 +119,36 @@
       </div>
     </nav>
 
-    <section class="container card rounded-0" style="background-color: rgb(214, 214, 214);">
+    <section class="container card rounded-0 d-flex justify-content-center" style="background-color: rgb(214, 214, 214); min-height: 80vh;">
+
       <div class="row justify-content-center">
-        <div class="col-12" style="max-width: 500px;">
+        
+        <div class="col-12 p-4" style="max-width: 500px;">
           
-            <h2 class="mb-4 mt-3 text-center">Login</h2>
+            <h2 class="mb-2 text-center">Login</h2>
+
+            <hr>
 
             <form action="/submit" method="post" novalidate>
 
-        
               <div class="mb-3">
-                <label for="email" class="form-label">Email Address</label>
+                <label for="email" class="form-label">Email Address <span class="required">*</span></label>
                 <input type="email" class="form-control" id="email" name="email" required>
               </div>
         
               <div class="mb-3">
-                <label for="password" class="form-label">Password</label>
+                <label for="password" class="form-label">Password <span class="required">*</span></label>
                 <input type="password" class="form-control" id="password" name="password" required minlength="6">
               </div>
-        
-              <div class="mb-3">
-                <label for="confirm" class="form-label">Confirm Password</label>
-                <input type="password" class="form-control" id="confirm" name="confirm" required minlength="6">
+
+              <div class="form-check mb-3 d-flex justify-content-end">
+                <a class="primary-link-color" href="#">Forgot Password?</a>
               </div>
         
-              <div class="form-check mb-3">
-                <input type="checkbox" class="form-check-input" id="terms" required>
-                <label class="form-check-label" for="terms">I agree to the <a href="#">terms and conditions</a></label>
-              </div>
-        
-              <button type="submit" class="btn btn-primary mb-5 w-100">Login</button>
+              <button type="submit" class="btn btn-primary  w-100">Login</button>
             </form>
-  
-          
         </div>
+
       </div>
     
         
