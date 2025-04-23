@@ -128,3 +128,23 @@ a {
 .primary-link-color{
   color: var(--primarylinkcolor);
 }
+
+/* Popular Packages */
+section.popular-packages img{
+  max-height: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Testimonials */
+section.testimonials img{
+  clip-path: circle();
+  max-height: 195px;
+}
+
+section .stars{
+  color: gold;
+  font-size: 2rem;
+  cursor: no-drop;
+}
+
