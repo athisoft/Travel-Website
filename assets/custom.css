@@ -27,8 +27,6 @@ li.active a{
   color: white !important;
 }
 
-
-
 .resposive-title {
   font-size: clamp(1.25rem, 0.4688rem + 2.5vw, 1.875rem);
   display: flex;
@@ -36,7 +34,16 @@ li.active a{
   gap: 10px;
 }
 
-/* Popular Packages */
+/* Small Screen */
+@media (max-width:425px) {
+  .carousel-item img {
+    height: 300px !important;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+/* Medium Screen Packages */
 @media (max-width:768px ) {
   section.popular-packages .card {
     max-width: auto;
