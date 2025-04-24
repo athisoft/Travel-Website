@@ -171,3 +171,9 @@ section .stars{
   cursor: no-drop;
 }
 
+
+section div.quotes img{
+  max-height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
