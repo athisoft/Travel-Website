@@ -168,12 +168,17 @@ section.testimonials img{
 section .stars{
   color: gold;
   font-size: 2rem;
-  cursor: no-drop;
+  cursor:default;
 }
 
 
 section div.quotes img{
-  max-height: 450px;
+  border-radius: 10px;
+  max-height: 400px;
   width: 100%;
   object-fit: cover;
 }
+
+/* Other Services */
+
+
