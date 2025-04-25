@@ -4,6 +4,16 @@
   --primarylinkcolor: #3f76aa;
 }
 
+/* Global Style */
+a{
+  color: var(--primarylinkcolor);
+}
+
+main{
+  box-shadow: 0 0 15px #172e4375;
+}
+/* End Global Style */
+
 ul.navbar-nav li.select:hover {
   background: #0000003a;
   color: white;
@@ -168,6 +178,51 @@ section.testimonials img{
 section .stars{
   color: gold;
   font-size: 2rem;
-  cursor: no-drop;
+  cursor:default;
 }
 
+/* Contact Us  */
+section div.quotes img{
+  border-radius: 20px;
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* Other Services */
+.other-services div.card {
+  position: relative;
+  overflow: hidden;
+}
+
+.other-services div.card img{
+display: block;
+object-fit: cover;
+height: 300px;
+}
+
+.other-services div.card p{
+opacity: 0;
+pointer-events: none;
+position: absolute;
+bottom:0;
+left: 0;
+right: 0;
+text-align: center;
+padding: 0 1rem 1rem 1rem;
+margin: 0;
+overflow: hidden;
+text-overflow: ellipsis;
+background-color: rgba(0, 0, 0, 0.6);
+color: white;
+transform: translateY(0);
+transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+
+.other-services div.card img:hover + div p{
+
+opacity: 1;
+transform: translatey(-65px);
+}
+  
