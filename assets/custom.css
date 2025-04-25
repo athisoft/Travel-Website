@@ -12,6 +12,14 @@ a{
 main{
   box-shadow: 0 0 15px #172e4375;
 }
+
+.titleText hr{
+width: 30%;
+margin-top: 0;
+height: 2px;
+background-color: black;
+}
+
 /* End Global Style */
 
 ul.navbar-nav li.select:hover {
@@ -98,6 +106,8 @@ li.active a{
     object-position: center;
   }
 }
+
+
 
 div.d-flex.gap-2.col-12 button.btn.border:hover {
   background-color: green;
