@@ -7,4 +7,5 @@ section.setAttribute("data-aos","fade-up");
 section.setAttribute("data-aos","fade-left");
 }
 
+
 });
