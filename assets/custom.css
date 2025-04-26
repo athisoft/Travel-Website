@@ -2,11 +2,12 @@
 :root{
   --primarybgcolor:#172e43;
   --primarylinkcolor: #3f76aa;
+  --primary2linkcolor: #3f76aa;
 }
 
 /* Global Style */
 a{
-  color: var(--primarylinkcolor);
+  color: var(--black);
 }
 
 main{
@@ -195,6 +196,8 @@ section .stars{
 section div.quotes img{
   border-radius: 20px;
   max-height: 200px;
+  min-height: 150;
+  display: block;
   width: 100%;
   object-fit: cover;
 }
