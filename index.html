@@ -7,6 +7,7 @@
       name="description"
       content="Kanyakumari Travels is one of the leading tour operators in Kanyakumari. We offer car rental in kanyakumari ,tours and travels ,travel agency ,kanyakumari tour package ,kanyakumari trip ,kanyakumari tour ,trivandrum to kanyakumari taxi fare ,kanyakumari cab ,kanyakumari travels ,kanyakumari family tour package ,chennai to kanyakumari tour package ,rameshwaram kanyakumari tour package"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="/assets/css/bootstrap.css" />
     <link rel="stylesheet" href="/assets/custom.css" />
   </head>
@@ -157,7 +158,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>Kanyakumari</h5>
               <p>
-                Some representative placeholder content for the first slide.
+                Feel the magic at Kanyakumari, where the seas meet and sunsets inspire.
               </p>
             </div>
           </div>
@@ -172,7 +173,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>Rameshwaram</h5>
               <p>
-                Some representative placeholder content for the second slide.
+                Discover the spiritual heart of South India with a visit to Rameshwaram. 
               </p>
             </div>
           </div>
@@ -186,7 +187,7 @@
             <div class="carousel-caption d-none d-md-block">
               <h5>Himalaya</h5>
               <p>
-                Some representative placeholder content for the third slide.
+                Find peace in the mighty Himalayas, where every peak whispers ancient serenity.
               </p>
             </div>
           </div>
@@ -212,13 +213,16 @@
       </div>
     </section>
 
-    <main class="container pt-3 p-5">
+    <main class="container pt-3 p-sm-3">
 
     <!-- Popular Packages -->
-    <section class="popular-packages">
-      <p class="fs-1 text-center text-success">
-        Popular Tour Packages From Tamil Nadu
-      </p>
+    <section data-aos="zoom-in" class="popular-packages">
+      <div class="titleText d-flex flex-column align-items-center">
+        <p class="fs-1 text-center mb-1 text-success">
+          Popular Tour Packages From Tamil Nadu
+        </p>
+        <hr>
+      </div>
 
       <div class="card-group  gap-1 justify-content-center gap-3">
         <div class="card border border-0 rounded shadow mb-2" >
@@ -239,7 +243,7 @@
               <button class="btn border flex-grow-1 fw-semibold" type="button">
                 Book Now <i class="fa-solid fa-arrow-right"></i>
               </button>
-              <button class="btn border flex-grow-1 fw-semibold" type="button">
+              <button class="btn border flex-grow-1 d-lg-block d-md-none  d-sm-block fw-semibold" type="button">
                 View More <i class="fa-regular fa-heart"></i>
               </button>
             </div>
@@ -264,7 +268,7 @@
               <button class="btn border flex-grow-1 fw-semibold" type="button">
                 Book Now <i class="fa-solid fa-arrow-right"></i>
               </button>
-              <button class="btn border flex-grow-1 fw-semibold" type="button">
+              <button class="btn border flex-grow-1 d-lg-block d-md-none  d-sm-block fw-semibold" type="button">
                 View More <i class="fa-regular fa-heart"></i>
               </button>
             </div>
@@ -290,7 +294,7 @@
               <button class="btn border flex-grow-1 fw-semibold" type="button">
                 Book Now <i class="fa-solid fa-arrow-right"></i>
               </button>
-              <button class="btn border flex-grow-1 fw-semibold" type="button">
+              <button class="btn border flex-grow-1 d-lg-block d-md-none  d-sm-block fw-semibold" type="button">
                 View More <i class="fa-regular fa-heart"></i>
               </button>
             </div>
@@ -300,7 +304,7 @@
     </section>
 
     <!-- Testimonials -->
-      <section class="row justify-content-center my-4  testimonials">
+      <section data-aos="fade-right" class="row justify-content-center my-4  testimonials">
         
         <div class="col-12 d-flex justify-content-center">
           <img class="img-fluid py-2 d-sm-none d-block" src="/imgs/dp.png" alt="Profile">
@@ -327,10 +331,13 @@
       </section>
     
       <!-- Local Packages -->
-      <section class="popular-packages mt-2">
-        <p class="fs-1 text-center text-success">
+      <section data-aos="fade-left" id="local-packages-section" class="popular-packages mt-2">
+        <div class="titleText d-flex flex-column align-items-center">
+        <p class="fs-1 text-center text-success mb-1">
          Tourist Spots From Kanyakumari
         </p>
+        <hr>
+      </div>
   
         <div class="card-group  gap-1 justify-content-center gap-3">
           <div class="card border border-0 rounded shadow mb-2" >
@@ -408,7 +415,7 @@
       </section>
 
       <!-- Contact Us -->
-       <section class="my-2">
+       <section data-aos="fade-up" class="my-4">
        <div class="quotes position-relative">
         <img class="img-fluid" src="/imgs/contact.png" alt="contact-image">
         
@@ -424,10 +431,13 @@
       </section>
 
         <!-- Other Services -->
-      <section class="other-services mt-2">
-        <p class="fs-1 text-center text-success">
+      <section data-aos="fade-up" class="other-services">
+        <div class="titleText d-flex flex-column align-items-center">
+        <p class="fs-1 text-center text-success mb-1">
          Other Services
         </p>
+        <hr>
+      </div>
   
         <div class="card-group  gap-1 justify-content-center gap-3">
 
@@ -539,6 +549,12 @@
         Designed By <a class="link-info" href="https://athisoft.in">AthiSoft</a>
       </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/assets/custom.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <script
       src="https://kit.fontawesome.com/a7e04f4c69.js"

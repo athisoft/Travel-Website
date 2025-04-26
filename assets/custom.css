@@ -2,16 +2,25 @@
 :root{
   --primarybgcolor:#172e43;
   --primarylinkcolor: #3f76aa;
+  --primary2linkcolor: #3f76aa;
 }
 
 /* Global Style */
 a{
-  color: var(--primarylinkcolor);
+  color: var(--black);
 }
 
 main{
   box-shadow: 0 0 15px #172e4375;
 }
+
+.titleText hr{
+width: 30%;
+margin-top: 0;
+height: 2px;
+background-color: black;
+}
+
 /* End Global Style */
 
 ul.navbar-nav li.select:hover {
@@ -99,6 +108,8 @@ li.active a{
   }
 }
 
+
+
 div.d-flex.gap-2.col-12 button.btn.border:hover {
   background-color: green;
   color: white;
@@ -185,6 +196,8 @@ section .stars{
 section div.quotes img{
   border-radius: 20px;
   max-height: 200px;
+  min-height: 150;
+  display: block;
   width: 100%;
   object-fit: cover;
 }
