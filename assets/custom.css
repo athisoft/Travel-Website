@@ -115,13 +115,13 @@ div.d-flex.gap-2.col-12 button.btn.border:hover {
   color: white;
 }
 
-footer div.col-md-4.my-4 ul.list-group li.list-group-item {
+.greenUnderLine {
   border: 0;
-  border-radius: 0;
+  border-radius: 0 !important;
   border-bottom: 1px solid white;
 }
 
-footer div.col-md-4.my-4 ul.list-group li.list-group-item:hover {
+.greenUnderLine:hover {
   color: green;
   border-bottom: 1px solid rgb(5, 161, 31);
 }
